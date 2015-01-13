@@ -1,7 +1,7 @@
 # django-teenyweeny
 A simple django app for manual url shortening. Input of new URLs is only possible via the django admin. They are not generated automatically.
 
-It was created for [MyComoda](https://www.mycomoda.de) to allow short campaign links without loosing "social influence" on search engines to bit.ly or similar services.
+It was created for a [Fashion Community](https://www.mycomoda.de) to allow short campaign links without loosing link juice and social signals to bit.ly or similar services.
 
 # Requirements
 Tested on django 1.6, python 2.7
@@ -44,4 +44,4 @@ Test the redirection
 	Location: http://www.google.de/
 
 # Credits
-Designed by [Linda Eich](https://www.mycomoda.de/accounts/profile/Linda/outfits)
+Designed by [Linda Eich](https://www.mycomoda.de/accounts/profile/Linda/outfits) and [Ferdinand v. Seggern](http://de.linkedin.com/pub/ferdinand-v-seggern/27/88a/858/en)
