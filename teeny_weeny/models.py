@@ -3,7 +3,7 @@ from django.utils import timezone
 
 class ShortLink(models.Model):
     short = models.CharField(max_length=128, unique=True)
-    link = models.URLField()
+    link = models.URLField(max_length=500)
     hit = models.BigIntegerField(default=0)
     date = models.DateTimeField(default=timezone.now)
 
